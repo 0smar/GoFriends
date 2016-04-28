@@ -25,7 +25,7 @@
 			<h1>Encuentra el viaje que necesitas</h1>
 			<p>Conecta con personas con tu mismo destino y comparte gastos, protege el ambiente y haz nuevos amigos.</p>
 		</div>
-		<div class="flexie steps row major-between minor-center wrap">
+		<div class="flexie steps row major-center minor-center wrap">
 			<div class="step flexie col major-center reveal-s">
 				<div class="step-img">
 					<img src="img/icon1.png" alt="Busca Viajes">
@@ -57,28 +57,28 @@
 			<h1>Hay un viaje indicado para ti</h1>
 			<p>Con <span>Go Friends</span> puedes encontrar el tipo de viaje que necesites. Estamos seguros que alguno se ajusta a tu plan.</p>
 		</div>
-		<div class="flexie trips major-between minor-center wrap">
-			<div class="flexie trip col major-center reveal-t" id="gofriends">
+		<div class="flexie trips row major-between minor-center">
+			<div class="flexie trip col major-start minor-center reveal-t" id="gofriends">
 				<h3><b>Go</b> Friends</h3>
 				<p>Viaja casual, conoce gente</p>
 			</div>
-			<div class="flexie trip col major-center reveal-t" id="godinez">
-				<h3><b>Go</b>-Dinez</h3>
+			<div class="flexie trip col major-start minor-center reveal-t" id="godinez">
+				<h3><b>Go</b> Dinez</h3>
 				<p>Llega a tu trabajo sin dificultad</p>
 			</div>
-			<div class="flexie trip col major-center reveal-t" id="gotrip">
+			<div class="flexie trip col major-start minor-center reveal-t" id="gotrip">
 				<h3><b>Go</b> Trip</h3>
 				<p>Diviértete de ciudad a ciudad</p>
 			</div>
-			<div class="flexie trip col major-center reveal-t" id="gosports">
+			<div class="flexie trip col major-start minor-center reveal-t" id="gosports">
 				<h3><b>Go</b> Sports</h3>
 				<p>No te pierdas ese gran partido</p>
 			</div>
-			<div class="flexie trip col major-center reveal-t" id="gogirls">
+			<div class="flexie trip col major-start minor-center reveal-t" id="gogirls">
 				<h3><b>Go</b> Girls</h3>
 				<p>Poder femenino en un auto</p>
 			</div>
-			<div class="flexie trip col major-center reveal-t" id="gofest">
+			<div class="flexie trip col major-start minor-center reveal-t" id="gofest">
 				<h3><b>Go</b> Fest</h3>
 				<p>¿Perderse un Festival? ¡Jamás!</p>
 			</div>
@@ -87,17 +87,19 @@
 	<div id="contact" class="flexie contact col major-center minor-center">
 		<h1 class="reveal">¿Quieres comenzar a viajar?</h1>
 		<p class="reveal">Suscríbete a nuestro boletín y disfruta de promociones y eventos increíbles</p>
-		<form action="" class="flexie col reveal">
-			<input type="email" placeholder="Correo Electrónico" required>
+		<form action="https://formspree.io/gofriendsmx@gmail.com" method="post" class="flexie col reveal">
+			<input type="email" placeholder="Correo Electrónico" name="Correo Electronico" required>
 			<input type="submit" value="Regístrate">
+			<input type="hidden" name="_next" value="gracias.html" />
+			<input type="hidden" name="_subject" value="Nueva Suscripción!" />
 		</form>
 		<div class="logoc reveal">
 			<img src="img/logo.svg" alt="Logo GoFriends">
 		</div>
 	</div>
 	<div class="flexie row footer major-between minor-center wrap">
-		<div class="copyright"><span>Aviso de Privacidad</span></div>
-		<div class="flexie nuva minor-center major-end">
+		<div class="copyright"><a style="color:white" href="privacy.html"><span>Aviso de Privacidad</span></a></div>
+		<div class="flexie nuva minor-end major-end">
 			<a href="http://www.nuva.rocks"><img src="img/nuva.svg" alt="NUVA.ROCKS"></a>
 		</div>
 	</div>
